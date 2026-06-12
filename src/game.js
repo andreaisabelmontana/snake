@@ -1,4 +1,4 @@
-// Coil — Snake on a 24x24 grid.
+// Snake — Snake on a 24x24 grid.
 // Movement is stepped on a fixed tick, but rendering interpolates between the
 // previous and current cell so the snake glides instead of snapping. A queued
 // direction prevents the classic "double-turn into yourself" death.

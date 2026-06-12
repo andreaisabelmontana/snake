@@ -1,14 +1,14 @@
-# Coil
+# Snake
 
-Snake, refined. A 24×24 grid, a tail that grows with every bite, and a pace that quietly climbs the longer you survive. Your high score persists between visits.
+Snake on a 24×24 grid: tail grows with every apple eaten, speed increases the longer you survive, high score persists between visits.
 
-**▶ Play:** https://andreaisabelmontana.github.io/coil/
+**▶ Play:** https://andreaisabelmontana.github.io/snake/
 
 > **Not an original idea.** This recreates the concept of an existing project — I didn't invent it. I rebuilt it from scratch, my own way, out of curiosity about how it actually works (and tried to make it a little better along the way).
 
 ## Features
 
-- **Smooth gliding** — movement is stepped on a fixed tick, but rendering interpolates between cells so the snake flows instead of snapping
+- **Interpolated rendering** — movement is stepped on a fixed tick, but rendering interpolates between cells so the snake moves smoothly rather than snapping
 - **Two modes** — *Walls* (edges kill) or *Wrap* (pass through edges)
 - **Rising speed** — each apple shaves a little off the tick, down to a floor
 - **Queued turns** — a buffered direction stops the classic double-tap self-kill
