@@ -4,6 +4,8 @@ Snake, refined. A 24×24 grid, a tail that grows with every bite, and a pace tha
 
 **▶ Play:** https://andreaisabelmontana.github.io/coil/
 
+> **Not an original idea.** This recreates the concept of an existing project — I didn't invent it. I rebuilt it from scratch, my own way, out of curiosity about how it actually works (and tried to make it a little better along the way).
+
 ## Features
 
 - **Smooth gliding** — movement is stepped on a fixed tick, but rendering interpolates between cells so the snake flows instead of snapping
