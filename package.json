@@ -1,0 +1,10 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "Snake game core: deterministic grid game-state with wall/wrap modes and seeded food.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  }
+}
